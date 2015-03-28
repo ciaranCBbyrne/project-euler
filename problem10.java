@@ -15,7 +15,7 @@ public class problem10 {
 			
 			boolean found = false;
 			
-			for(int i = 2 ; i <= inc/2 ; i++){			//check if prime by dividing
+			for(int i = 2 ; i*i <= inc ; i++){			//check if prime by dividing
 				if((inc % i == 0) && (inc != i)){		
 					found = true;
 					break;
